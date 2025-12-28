@@ -23,31 +23,18 @@ A simple Telegram bot built with Python using the `python-telegram-bot` library.
 
 ---
 
-### 2. Clone the repository
+### 2. Go to the Telegrambot folder
 ```bash
-git clone <repository-url>
-cd telegram_bot
+cd Telegrambot
 ```
 
-### 3. create venv
-```bash
-python -m venv venv
-source venv/bin/activate  # for Linux and Mac
-venv\Scripts\activate     # Windows
-```
-
-### 4. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Create .env 
-Create a .env file in the project root (Telegrambot) and add:
+### 3. Create .env 
+Create a .env file in (Telegrambot) and add:
 ```bash
 TELEGRAM_BOT_TOKEN="your_token_from_botfather"
 ```
 
-### 6. Run the file
+### 4. Run the file
 ```bash
 python bot.py
 ```
