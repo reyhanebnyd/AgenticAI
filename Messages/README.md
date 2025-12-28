@@ -38,37 +38,23 @@ Each message contains:
 
 ## Setup Instructions
 
-### 1. Clone the repository
+### 1. Go to Messages directory
 ```bash
-git clone <repository-url>
-cd django_api
+cd Messages
 ```
-### 2. Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # for Linux and Mac
-venv\Scripts\activate     # Windows
-```
-
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Create .env file
-Create a .env file in the project root (Messages/) and add:
+### 2. Create .env file
+Create a .env file in the (Messages/) and add:
 ```bash
 SECRET_KEY=your_django_secret_key_here
 ```
 
-### 5.Apply migrations
+### 3 .Apply migrations
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 6. Run the Server
+### 4. Run the Server
 ```bash
 python manage.py runserver
 ```
